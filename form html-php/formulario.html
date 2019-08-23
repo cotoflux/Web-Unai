@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fórmulario y Página PHP</title>
+        <meta charset="UTF-8">        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">        
+    </head>
+    <body>
+        <div class="container">
+          <h2>Datos Personales</h2>
+          <form class="form-horizontal" action="form1.php" method="post">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="Nombre">Nombre:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="Nombre" placeholder="Introduzca su nombre" name="Nombre">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="Apellidos">Apellidos:</label>
+              <div class="col-sm-10">          
+                <input type="text" class="form-control" id="Apellidos" placeholder="Introduzca sus apellidos" name="Apellidos">
+              </div>
+            </div>
+            <div class="form-group">        
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-warning">Borrar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </body>
+</html>
